@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 6667934307253841927}
   - component: {fileID: 1600650251320978024}
   - component: {fileID: -4721657144893383043}
-  - component: {fileID: 7618514963569008664}
+  - component: {fileID: -4117338774370537989}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -90,7 +90,7 @@ MonoBehaviour:
   jumpSpeed: 8
   gravity: 20
   lookSpeed: 2
-  lookXLimit: 25
+  lookXLimit: 85
   canMove: 1
   cameraYOffset: 0.4
 --- !u!114 &1084005412569477300
@@ -115,7 +115,7 @@ MonoBehaviour:
   - {fileID: 6667934307253841927}
   - {fileID: 1600650251320978024}
   - {fileID: -4721657144893383043}
-  - {fileID: 7618514963569008664}
+  - {fileID: -4117338774370537989}
   <ParentNetworkObject>k__BackingField: {fileID: 0}
   <ChildNetworkObjects>k__BackingField: []
   SerializedTransformProperties:
@@ -127,11 +127,11 @@ MonoBehaviour:
   _initializeOrder: 0
   _defaultDespawnType: 0
   NetworkObserver: {fileID: 0}
-  <PrefabId>k__BackingField: 2
+  <PrefabId>k__BackingField: 4
   <SpawnableCollectionId>k__BackingField: 0
   _scenePathHash: 0
   <SceneId>k__BackingField: 0
-  <AssetPathHash>k__BackingField: 7807759643866311769
+  <AssetPathHash>k__BackingField: 13877117756719012106
   _sceneNetworkObjects:
   - {fileID: 1084005412569477300}
 --- !u!114 &8462681730033917521
@@ -263,7 +263,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   timeBetweenFire: 1
---- !u!114 &7618514963569008664
+--- !u!114 &-4117338774370537989
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -272,19 +272,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 290250904774276047}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: adac6d00f91e3a3479fc902ee792ce6f, type: 3}
+  m_Script: {fileID: 11500000, guid: f78263d7ee4430040bf6f8384c4f7616, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _componentIndexCache: 6
   _addedNetworkObject: {fileID: 1084005412569477300}
   _networkObjectCache: {fileID: 1084005412569477300}
-  raycastDistance: 2
+  inventoryObjects: []
+  invCanvasObject: {fileID: 1188943104611905959, guid: 2096ef80752fa934198f836300a0bcd6, type: 3}
+  inventoryButton: 9
   pickupLayer:
     serializedVersion: 2
     m_Bits: 128
-  pickupPosition: {fileID: 8091349789492564924}
+  pickupDistance: 2
   pickupButton: 101
-  dropButton: 113
 --- !u!1 &2336504908392180239
 GameObject:
   m_ObjectHideFlags: 0

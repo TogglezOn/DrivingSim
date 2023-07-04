@@ -71,3 +71,13 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 DrivingSim/Library/ArtifactDB
+DrivingSim/Library/Bee/1900b0aE.dag
+DrivingSim/Library/Bee/1900b0aE.dag
+DrivingSim/Library/Bee/backend1.traceevents
+DrivingSim/Library/Bee/backend2.traceevents
+DrivingSim/Library/Bee/buildprogram0.traceevents
+DrivingSim/Library/Bee/fullprofile.json
+DrivingSim/Library/Bee/tundra.digestcache
+DrivingSim/Library/Bee/tundra.log.json
+DrivingSim/Library/Bee/TundraBuildState.state
+DrivingSim/Library/Bee/TundraBuildState.state.map

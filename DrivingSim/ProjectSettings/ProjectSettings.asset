@@ -639,7 +639,23 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Standalone: FISHNET;FISHNET_V3
+    Android: BCG_NEWINPUTSYSTEM;BCG_RCCP
+    Bratwurst: BCG_NEWINPUTSYSTEM;BCG_RCCP
+    EmbeddedLinux: BCG_NEWINPUTSYSTEM;BCG_RCCP
+    GameCoreScarlett: BCG_NEWINPUTSYSTEM;BCG_RCCP
+    GameCoreXboxOne: BCG_NEWINPUTSYSTEM;BCG_RCCP
+    LinuxHeadlessSimulation: BCG_NEWINPUTSYSTEM;BCG_RCCP
+    Nintendo Switch: BCG_NEWINPUTSYSTEM;BCG_RCCP
+    PS4: BCG_NEWINPUTSYSTEM;BCG_RCCP
+    PS5: BCG_NEWINPUTSYSTEM;BCG_RCCP
+    QNX: BCG_NEWINPUTSYSTEM;BCG_RCCP
+    Stadia: BCG_NEWINPUTSYSTEM;BCG_RCCP
+    Standalone: FISHNET;FISHNET_V3;BCG_NEWINPUTSYSTEM;BCG_RCCP;MAPMAGIC2;MM_NATIVE
+    WebGL: BCG_NEWINPUTSYSTEM;BCG_RCCP
+    Windows Store Apps: BCG_NEWINPUTSYSTEM;BCG_RCCP
+    XboxOne: BCG_NEWINPUTSYSTEM;BCG_RCCP
+    iPhone: BCG_NEWINPUTSYSTEM;BCG_RCCP
+    tvOS: BCG_NEWINPUTSYSTEM;BCG_RCCP
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -745,7 +761,7 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 0
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
